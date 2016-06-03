@@ -52,6 +52,7 @@ public class frmApp extends javax.swing.JFrame {
 
     private void btnAceptarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAceptarActionPerformed
         this.inputCommand();
+        this.jTextField1.setText("");
     }//GEN-LAST:event_btnAceptarActionPerformed
 
     public static void main(String args[]) {
@@ -66,11 +67,10 @@ public class frmApp extends javax.swing.JFrame {
      
         public void inputCommand()
         {
-         Gestor cmd = new Gestor();
-         String comando = this.jTextField1.getText();
-         cmd.lanzarApp(comando);
+            Gestor cmd = new Gestor();
+            String comando = this.jTextField1.getText();
+            cmd.lanzarApp(comando);
         }
-    
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

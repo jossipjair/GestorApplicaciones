@@ -1,6 +1,8 @@
 
 package gestor;
 
+import javax.swing.JOptionPane;
+
 public class Gestor {
     public Gestor(){}
     
@@ -20,6 +22,8 @@ public class Gestor {
                     try{aplicacion.exec("C:\\Program Files\\Microsoft Office\\Office15\\WINWORD.EXE"); }
                     catch(Exception e){}
                     break;
+            default:
+                    JOptionPane.showMessageDialog(null, "Comando incorrecto!");
         }
         
 
