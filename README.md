@@ -1,2 +1,2 @@
-# PryRobot
-Proyecto demo de un "robot"
+# Gestor de aplicaciones Windows
+Proyecto para proyección social: UPSJB - ICA
